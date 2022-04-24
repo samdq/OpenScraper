@@ -20,13 +20,3 @@ def fetch_name_meaning(name):
     except:
         return "Not found"
 
-print("Welcome to the program!\n")
-
-try:
-    # Read names from the "names.txt" file
-    with open("names.txt", "r") as name_file:
-        names = [line.strip() for line in name_file.readlines() if is_alpha(line.strip())]
-except FileNotFoundError:
-    print("The file 'names.txt' does not exist.")
-    exit(1)
-
