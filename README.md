@@ -25,3 +25,7 @@ openscraper/
 - openscraper/init.py:
 
 Initializes the OpenScraper module.
+
+- openscraper/scraper.py:
+
+Core module for web scraping, using the Smart Selector Engine and handling data extraction.
