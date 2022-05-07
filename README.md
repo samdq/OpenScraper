@@ -20,3 +20,8 @@ openscraper/
 ├── requirements.txt
 └── run.py
 ```
+
+## File Descriptions:
+- openscraper/init.py:
+
+Initializes the OpenScraper module.
