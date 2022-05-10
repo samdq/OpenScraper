@@ -29,3 +29,7 @@ Initializes the OpenScraper module.
 - openscraper/scraper.py:
 
 Core module for web scraping, using the Smart Selector Engine and handling data extraction.
+
+- openscraper/selector_engine.py:
+
+Implements the Smart Selector Engine with powerful CSS and XPath selectors for navigating complex website structures.
