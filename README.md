@@ -33,3 +33,7 @@ Core module for web scraping, using the Smart Selector Engine and handling data 
 - openscraper/selector_engine.py:
 
 Implements the Smart Selector Engine with powerful CSS and XPath selectors for navigating complex website structures.
+
+- openscraper/anti_scraping.py:
+
+Manages anti-scraping measures, including strategies for handling captchas, session cookies, and dynamic content changes.
