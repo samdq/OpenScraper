@@ -37,3 +37,7 @@ Implements the Smart Selector Engine with powerful CSS and XPath selectors for n
 - openscraper/anti_scraping.py:
 
 Manages anti-scraping measures, including strategies for handling captchas, session cookies, and dynamic content changes.
+
+- openscraper/data_processing.py:
+
+Contains tools for cleaning, parsing, and structuring extracted data.
