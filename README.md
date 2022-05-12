@@ -41,3 +41,7 @@ Manages anti-scraping measures, including strategies for handling captchas, sess
 - openscraper/data_processing.py:
 
 Contains tools for cleaning, parsing, and structuring extracted data.
+
+- openscraper/modular_architecture/init.py:
+
+Initializes the modular architecture submodule.
