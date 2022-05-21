@@ -45,3 +45,7 @@ Contains tools for cleaning, parsing, and structuring extracted data.
 - openscraper/modular_architecture/init.py:
 
 Initializes the modular architecture submodule.
+
+- openscraper/modular_architecture/custom_plugins.py:
+
+Allows extending functionality with custom plugins for specific scraping tasks.
