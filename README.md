@@ -49,3 +49,7 @@ Initializes the modular architecture submodule.
 - openscraper/modular_architecture/custom_plugins.py:
 
 Allows extending functionality with custom plugins for specific scraping tasks.
+
+- openscraper/modular_architecture/custom_formats.py:
+
+Enables custom data formats for structured output.
