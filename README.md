@@ -53,3 +53,7 @@ Allows extending functionality with custom plugins for specific scraping tasks.
 - openscraper/modular_architecture/custom_formats.py:
 
 Enables custom data formats for structured output.
+
+- openscraper/asynchronous_scraping.py:
+
+Implements asynchronous scraping to scrape multiple websites concurrently for faster data acquisition.
