@@ -57,3 +57,7 @@ Enables custom data formats for structured output.
 - openscraper/asynchronous_scraping.py:
 
 Implements asynchronous scraping to scrape multiple websites concurrently for faster data acquisition.
+
+- openscraper/api_integration.py:
+
+Integrates with external APIs and services for data validation and enrichment.
