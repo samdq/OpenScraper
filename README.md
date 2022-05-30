@@ -61,3 +61,8 @@ Implements asynchronous scraping to scrape multiple websites concurrently for fa
 - openscraper/api_integration.py:
 
 Integrates with external APIs and services for data validation and enrichment.
+
+- run.py:
+
+Entry point to run the OpenScraper application.
+
