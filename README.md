@@ -66,3 +66,7 @@ Integrates with external APIs and services for data validation and enrichment.
 
 Entry point to run the OpenScraper application.
 
+- requirements.txt:
+
+List of Python packages required for the application.
+
