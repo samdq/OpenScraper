@@ -70,3 +70,7 @@ Entry point to run the OpenScraper application.
 
 List of Python packages required for the application.
 
+- openscraper/README.md:
+
+Documentation for the OpenScraper project.
+
