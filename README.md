@@ -74,3 +74,19 @@ List of Python packages required for the application.
 
 Documentation for the OpenScraper project.
 
+
+## Usage:
+- Install required packages:
+```
+pip install -r requirements.txt
+```
+
+- Run the application:
+```
+python run.py
+```
+
+- Explore and use different modules for web scraping, anti-scraping, data processing, modular architecture, asynchronous scraping, and API integration.
+
+
+
