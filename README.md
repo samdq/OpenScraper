@@ -88,5 +88,8 @@ python run.py
 
 - Explore and use different modules for web scraping, anti-scraping, data processing, modular architecture, asynchronous scraping, and API integration.
 
+## Note:
+- The provided structure is for illustrative purposes, and you may need to adapt it based on the specific requirements of your project.
+
 
 
