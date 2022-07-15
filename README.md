@@ -91,5 +91,7 @@ python run.py
 ## Note:
 - The provided structure is for illustrative purposes, and you may need to adapt it based on the specific requirements of your project.
 
+- Ensure you follow ethical scraping practices and respect website terms of service while using OpenScraper.
+
 
 
