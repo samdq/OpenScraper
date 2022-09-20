@@ -16,3 +16,10 @@ class Scraper:
         except requests.exceptions.RequestException as e:
             print(f"Error fetching HTML from {url}: {e}")
             return None
+    def extract_data(self, html, selector):
+        try:
+            selected_elements = self.selector_engine.select(html, selector)
+            return [element.text.strip() for element in selected_elements]
+        except Exception as e:
+            print(f"Error extracting data with selector '{selector}': {e}")
+            return None
