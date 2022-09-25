@@ -23,3 +23,15 @@ class Scraper:
         except Exception as e:
             print(f"Error extracting data with selector '{selector}': {e}")
             return None
+    def handle_common_errors(self, response):
+        # Handle common HTTP errors and return True if the response is successful
+        if response.status_code == 404:
+            print("Page not found (404).")
+            return False
+        elif response.status_code == 403:
+            print("Access forbidden (403).")
+            return False
+        elif response.status_code == 500:
+            print("Internal server error (500).")
+            return False
+        return True
