@@ -10,3 +10,6 @@ class CustomFormat:
             # Placeholder: Convert data to a custom format (e.g., JSON)
             formatted_data = {"formatted_data": data}
             return formatted_data
+        except Exception as e:
+            print(f"Error formatting data in custom format '{self.format_name}': {e}")
+            return None
