@@ -15,3 +15,8 @@ class AsynchronousScraper:
         except aiohttp.ClientError as e:
             print(f"Error fetching HTML from {url}: {e}")
             return None
+    async def scrape_website_async(self, session, url, selector):
+        html_content = await self.fetch_html_async(session, url)
+        if html_content:
+            data = await self.extract_data_async(html_content, selector)
+            return data
