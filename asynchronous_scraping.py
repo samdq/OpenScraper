@@ -20,3 +20,9 @@ class AsynchronousScraper:
         if html_content:
             data = await self.extract_data_async(html_content, selector)
             return data
+
+    async def scrape_multiple_websites_async(self, websites):
+        async with aiohttp.ClientSession() as session:
+            tasks = [self.scrape_website_async(session, url, selector) for url, selector in websites]
+            results = await asyncio.gather(*tasks)
+            return results
