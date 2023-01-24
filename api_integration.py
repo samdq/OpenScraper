@@ -14,3 +14,6 @@ class APIIntegration:
         except requests.exceptions.RequestException as e:
             print(f"Error integrating with external API {api_url}: {e}")
             return None
+
+
+#The APIIntegration class now takes an optional api_key parameter during initialization to handle authentication headers.
