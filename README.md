@@ -1,4 +1,4 @@
-# Open Scrapper
+# Open Scraper
 
 OpenScraper is a versatile Python toolkit designed for efficient web scraping and data extraction. It offers a comprehensive set of features to navigate complex website structures, handle anti-scraping measures, clean and transform data, and integrate with external APIs. 
 
